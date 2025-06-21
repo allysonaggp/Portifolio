@@ -17,7 +17,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(https://github.com/allysonaggp/SitePortifolio/blob/main/img/icones/headerOptions.svg);
+    background-image: url('img/icones/headerOptions.svg');
 }
 
 
@@ -64,22 +64,22 @@
 }
 
 .information .job {
-    background-image: url(img/icones/job.svg);
+    background-image: url('img/icones/job.svg');
     background-repeat: no-repeat;
 }
 
 .information .location {
-    background-image: url(img/icones/location.svg);
+    background-image: url('img/icones/location.svg');
     background-repeat: no-repeat;
 }
 
 .information .phone {
-    background-image: url(img/icones/phone.svg);
+    background-image: url('img/icones/phone.svg');
     background-repeat: no-repeat;
 }
 
 .information .email {
-    background-image: url(img/icones/email.svg);
+    background-image: url('img/icones/email.svg');
     background-repeat: no-repeat;
 }
 
@@ -94,13 +94,13 @@
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
-    background-image: url('https://raw.githubusercontent.com/allysonagepp/SitePortfolio/main/img/icones/degradeSuperior.svg');
+    background-image: url('img/icones/degradeSuperior.svg');
 
 }
 
 .main::after {
     content: '';
-    background-image: url('https://raw.githubusercontent.com/allysonagepp/SitePortfolio/main/img/icones/degradeInferior3.svg');
+    background-image: url('img/icones/degradeInferior3.svg');
     background-repeat: no-repeat;
     display: inline-block;
     background-size: contain;
