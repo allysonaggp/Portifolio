@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    display: inline-block;
+    /*com position absolute + top,bottom,left e right vc consegue mover os objetos
+    precisa por position relative no pai o principal*/
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('img/icones/headerOptions.svg');
+}
+
+
+.header .photo {
+    display: flex;
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: NeueMachina;
+    text-align: center;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 1.125rem;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: .5rem;
+
+
+}
+
+.information .job {
+    background-image: url(img/icones/job.svg);
+    background-repeat: no-repeat;
+}
+
+.information .location {
+    background-image: url(img/icones/location.svg);
+    background-repeat: no-repeat;
+}
+
+.information .phone {
+    background-image: url(img/icones/phone.svg);
+    background-repeat: no-repeat;
+}
+
+.information .email {
+    background-image: url(img/icones/email.svg);
+    background-repeat: no-repeat;
+}
+
+.main::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: '';
+    display: inline-block;
+    width: 130vw;
+    height: 87vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    background-image: url(img/icones/degradeSuperior.svg);
+
+}
+
+.main::after {
+    content: '';
+    background-image: url(img/icones/degradeInferior3.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: contain;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 129vw;
+    height: 78vw;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 776px) {
+
+    .header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information"
+        ;
+
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 237px;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+
+    .main::before {
+        width: 90vw;
+        height: 79.7vw;
+        opacity: 0.78;
+    }
+
+    .main::after {
+        width: 71vw;
+        height: 42.8vw;
+        opacity: 0.78;
+    }
+
+}

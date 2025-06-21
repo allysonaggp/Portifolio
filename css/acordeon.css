@@ -1,0 +1,82 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 1rem;
+    transition: 0.25s;
+    
+}
+
+.acordeon:hover {
+    background-color: #55569e;
+    border-color: #55569e;
+
+}
+
+.acordeon .trigger {
+    font-size: 1.5rem;
+    display: flex;
+    /* A propriedade flex-direction: row no CSS define a direção principal em que os itens de um contêiner flexível serão organizados — e nesse caso, é em linha horizontal, da esquerda para a direita.*/
+    flex-direction: row;
+    /*Flexbox ou Grid para alinhar os itens ao longo do eixo principal*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+.acordeon .trigger:hover {
+    /* põe mao no lugao do cursor quando vai clicar */
+    cursor: pointer;
+}
+
+.acordeon .trigger::after {
+    content: '';
+    /* Ele permite que o elemento fique lado a lado com outros (como um inline), mas ainda aceite altura, largura, margem e padding personalizados (como um block).*/
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    /* faz com que a imagem de fundo seja redimensionada para caber inteiramente dentro do elemento, preservando sua proporção original.*/
+    background-size: contain;
+    position: absolute;
+    top: 1.vw;
+    right: 2vw;
+    background-image: url(img/icones/arrow.svg);
+    transform: rotate(270deg);
+    transition: .25s;
+    
+    
+}
+
+.acordeon.open .trigger::after {
+    transform: rotate(360deg);
+    
+    
+
+
+}
+
+.acordeon .content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .7s ease-in-out;
+    
+
+}
+
+.acordeon.open .content {
+    display: block;
+    height: auto;
+    padding: 0 1rem 1rem 2rem;
+    opacity: 1;
+    border-radius: 1rem;
+
+}
