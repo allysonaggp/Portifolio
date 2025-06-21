@@ -48,7 +48,7 @@
     position: absolute;
     top: 1.vw;
     right: 2vw;
-    background-image: url('img/icones/arrow.svg');
+    background-image: url('../img/icones/arrow.svg');
     transform: rotate(270deg);
     transition: .25s;
     
