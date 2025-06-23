@@ -51,12 +51,14 @@
 .education .curso .title {
     margin-top: 2rem;
     margin-bottom: 0rem;
+    margin-left: -2rem;
 }
 
 .education .curso p {
 
     margin-bottom: 0rem;
     margin-top: -1rem;
+    margin-left: -2rem;
 
 
 }
