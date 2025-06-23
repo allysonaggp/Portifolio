@@ -12,12 +12,15 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="NeueMachina-Regular.otf">
+    <link rel="stylesheet" href="fonts/NeueMachina-Regular.otf">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/acordeon.css">
     <link rel="stylesheet" href="css/languages.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/education.css">
     <title>Portfólio</title>
 </head>
 
@@ -29,29 +32,50 @@
             <h1 class="title">Olá,<br> eu sou Allyson G Pereira</h1>
 
             <div class="information">
-                <p class="job">Dev Junior</p>
+                <p class="job">Analista de Desenvolvimento de Software</p>
                 <p class="location">Pernanbuco - BR</p>
-                <p class="phone">(81) 9 9659-8308</p>
-                <p class="email">allysonaggp@gmail.com</p>
+                <p class="phone"><a href="tel:+55 81 9 959-8308">(81) 9 9659-8308</a></p>
+                <p class="email"><a href="mailto:llysonaggp@gmail.com">allysonaggp@gmail.com</a></p>
             </div>
         </header>
-        <!--skill-->
-        <section class="acordeon open">
+      <div class="dio">
+          <!--skill-->
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Skills
+                <h2>Skills</h2>
             </button>
             <div class="content">
-                <ul class="Skills">
-                    <li>Português</li>
-                    <li>Ingles</li>
-                    <li>Espanhol</li>
-                </ul>
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="img/icones/js.svg" alt="js" title="js">
+                                <img src="img/icones/css.svg" alt="css" title="css">
+                                <img src="img/icones/html.svg" alt="html" title="html">
+                                <img src="img/icones/python.svg" alt="python" title="python">
+                                <img src="img/icones/git.svg" alt="git" title="git">
+                                <img src="img/icones/mysql.svg" alt="mysql" title="mysql">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades pessoal:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
             </div>
         </section>
         <!--Idiomas-->
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Idiomas
+                <h2>Idiomas</h2>
             </button>
             <div class="content">
                 <ul class="languages">
@@ -62,77 +86,101 @@
             </div>
         </section>
         <!--Educação-->
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Educação
+                <h2>Educação</h2>
             </button>
-            <div class="content">
-                <ul class="Educacao">
-                    <li>Português</li>
-                    <li>Ingles</li>
-                    <li>Espanhol</li>
-                </ul>
-            </div>
+            <div class="content"><section class="education">
+                <div class="conquest">
+                    <h3 class="title">Minhas conquistas na DIO</h3>
+                    <ul>
+                        <li>
+                            <img src="https://hermes.dio.me/tracks/977d1b41-5888-44d7-8e4c-57d2348748dc.png" alt="logica de programação" title="logica de programação">
+                            <img src="https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png" alt="html" title="html">
+                            <img src="https://assets.dio.me/gt-tEnhv4_p33iwDXfI-zutfiEJ-q27qVfDCcnLV7I0/f:webp/h:120/q:80/L3RyYWNrcy9kYTA0M2M3YS03MTg5LTQ0MWUtYmYyOC1hZGMyZDA1YTQ5MzQucG5n" alt="css" title="css">
+                            <img src="https://assets.dio.me/5ViRkDsIaUjO9TKHjJKnR9IpyveJ81NLZfM8vSf1yLs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81NWU3MDQwZi03NzViLTQ3ZTUtYThmYi02OWQwMDJjYTE3YTkucG5n" alt="javascript" title="javascript">
+                            <img src="https://hermes.dio.me/tracks/a736ef42-0d2f-4079-adb4-25c55c85ba2b.png" alt="python fundamentals" title="python fundamentals">
+                            <img src="https://assets.dio.me/fh7MA7tRhuS3kjER2ktioiJvXaQCToVc6qifwWdNoAs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81ZDU1YTRlYy1lZjM0LTQyMjItODMwZi0xOGRlYTgzYmEzOTMucG5n" alt="python backend" title="python backend">
+                        </li>
+                    </ul>
+                </div>
+                <div class="curso">
+                    <ul>
+                        <li>
+                            <h3 class="title">dio.me</h3><br>
+                            <p>Web Development! All i need to know in one place</p>
+                        </li>
+                        <br>
+                        <li>
+                            <h3 class="title">Estácio - Graduação em Analise e Desenvolvimento de Sistemas</h3>
+                            <br>
+                            <p>Recife - 2025</p>
+                        </li>
+                    </ul>
+                </div>
+            </section></div>
+            
         </section>
         <!--Portfolio-->
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Portfólio
+                <h2>Portfólio</h2>
             </button>
             <div class="content">
                 <ul class="portfolio">
                     <li>
-                        <span class="title">Criando um App de lembretes</span><br>
-                        <a
-                            href="wwww.google.com">https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example</a>
+                        <h3 class="title github">Pokedex, aplicação a 1 geração de Pokemons.</h3><br>
+                        <a href="https://allysonaggp.github.io/Pokedex/"
+                            target="_blank">https://allysonaggp.github.io/Pokedex/</a>
                     </li>
                     <br>
                     <li>
-                        <span class="title">Landing Page para um escritorio de advocacia</span><br>
-                        <a
-                            href="hhttps://cardosoadvocacia.onrender.com/">https://cardosoadvocacia.onrender.com/</a>
+                        <h3 class="title github">Landing Page para um escritorio de advocacia.</h3><br>
+                        <a href="https://cardosoadvocacia.onrender.com/"
+                            target="_blank">https://cardosoadvocacia.onrender.com/</a>
                     </li>
                     <br>
                     <li>
-                        <span class="title">SnapClima, aplicação que mostra a temperatura.</span><br>
-                        <a
-                            href="https://allysonaggp.github.io/snap-clima/">https://allysonaggp.github.io/snap-clima/</a>
+                        <h3 class="title github">SnapClima, aplicação que mostra a temperatura da região.</h3><br>
+                        <a href="https://allysonaggp.github.io/snap-clima/"
+                            target="_blank">https://allysonaggp.github.io/snap-clima/</a>
                     </li>
 
                 </ul>
             </div>
         </section>
         <!--Experienccia Profissional-->
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Experienccia Profissional
+                <h2>Experienccia Profissional</h2>
             </button>
             <div class="content">
-                <ul class="ExpPoficcional">
+                <ul class="experience">
                     <li>
-                        <span class="title">Front-end Developer / dio.me</span>
-                        <p>Jan 2020 - Current</p>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in <br>
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta <br>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <h3 class="period">Jan 2020 - Current</h3>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
                             ea et odio, unde doloremque repellendus iure, iste.</p>
                     </li>
                     <li>
-                        <span class="title">CFront-end Developer / Philips</span>
-                        <p>Jan 2017 - 2020</p>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in <br>
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta <br>
+                        <h3 class="title">CFront-end Developer / Philips</h3>
+                        <h3 class="period">Jan 2020 - Current</h3>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
                             ea et odio, unde doloremque repellendus iure, iste.</p>
                     </li>
                     <li>
-                        <span class="title">CUX designer/ dio.me</span>
-                        <p>Jan 2017 - 2020</p>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in <br>
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta <br>
+                        <h3 class="title">CUX designer/ dio.me</h3>
+                        <h3 class="period">Jan 2020 - Current</h3>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
+                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
                             ea et odio, unde doloremque repellendus iure, iste.</p>
                     </li>
                 </ul>
             </div>
         </section>
+      </div>
     </main>
 
 

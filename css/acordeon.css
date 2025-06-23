@@ -31,6 +31,12 @@
     position: relative;
 }
 
+.acordeon .trigger h2{
+margin: 0;
+font-size: 1.5rem;
+text-align: start;
+}
+
 .acordeon .trigger:hover {
     /* põe mao no lugao do cursor quando vai clicar */
     cursor: pointer;
@@ -53,10 +59,13 @@
     transition: .25s;
     
     
+    
 }
 
 .acordeon.open .trigger::after {
     transform: rotate(360deg);
+    
+    
     
     
 
@@ -69,6 +78,8 @@
     opacity: 0;
     transition: opacity .7s ease-in-out;
     
+    
+    
 
 }
 
@@ -78,5 +89,6 @@
     padding: 0 1rem 1rem 2rem;
     opacity: 1;
     border-radius: 1rem;
+   
 
 }

@@ -1,0 +1,60 @@
+.education {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.education .conquest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem;
+
+}
+
+.education .conquest ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.education .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 1rem;
+
+}
+
+.education ul {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+.education ul li img {
+    max-width: 50px;
+    margin: .5rem;
+}
+
+.education .curso {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.education .curso .title {
+    margin-top: 0rem;
+}
+
+.education .curso p {
+    
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+
+
+}
