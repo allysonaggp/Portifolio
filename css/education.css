@@ -27,6 +27,7 @@
     justify-content: flex-start;
     margin: 0;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -37,7 +38,7 @@
 }
 
 .education ul li img {
-    max-width: 50px;
+    max-width: 80px;
     margin: .5rem;
 }
 
@@ -48,12 +49,13 @@
 }
 
 .education .curso .title {
-    margin-top: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 .education .curso p {
-    
-    margin-bottom: 1rem;
+
+    margin-bottom: 0rem;
     margin-top: -1rem;
 
 
