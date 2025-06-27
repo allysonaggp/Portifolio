@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/experience.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Portfólio</title>
 </head>
 
@@ -29,44 +30,41 @@
         <header class="header">
             <img class="photo" src="https://media.licdn.com/dms/image/v2/D4D03AQERAO33NLBenA/profile-displayphoto-shrink_800_800/B4DZeJ0ED6GUAs-/0/1750363816745?e=1756339200&v=beta&t=xJFJb4-9AUNSNxoAJY-K9Na1krE6ewzMhZ7ZNnc0ABY" alt="Allyson G Pereira">
 
-            <h1 class="title">Olá,<br> eu sou Allyson G Pereira</h1>
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
 
             <div class="information">
-                <p class="job">Analista de Desenvolvimento de Software</p>
-                <p class="location">Pernanbuco - BR</p>
-                <p class="phone"><a href="tel:+55 81 9 959-8308">(81) 9 9659-8308</a></p>
-                <p class="email"><a href="mailto:llysonaggp@gmail.com">allysonaggp@gmail.com</a></p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                </p>
             </div>
         </header>
-      <div class="dio">
-          <!--skill-->
+
+        <!--skill-->
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
+
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Habilidades profissionais:</h3>
-                        <ul>
-                            <li>
-                                <img src="img/icones/js.svg" alt="js" title="js">
-                                <img src="img/icones/css.svg" alt="css" title="css">
-                                <img src="img/icones/html.svg" alt="html" title="html">
-                                <img src="img/icones/python.svg" alt="python" title="python">
-                                <img src="img/icones/git.svg" alt="git" title="git">
-                                <img src="img/icones/mysql.svg" alt="mysql" title="mysql">
-                            </li>
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
                     <section class="personal">
-                        <h3>Habilidades pessoal:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -77,11 +75,10 @@
             <button class="trigger" type="button">
                 <h2>Idiomas</h2>
             </button>
+
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Ingles</li>
-                    <li>Espanhol</li>
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
                 </ul>
             </div>
         </section>
@@ -90,101 +87,78 @@
             <button class="trigger" type="button">
                 <h2>Educação</h2>
             </button>
-            <div class="content"><section class="education">
-                <div class="conquest">
-                    <h3 class="title">Minhas conquistas na DIO</h3>
-                    <ul>
-                        <li>
-                            <img src="https://hermes.dio.me/tracks/977d1b41-5888-44d7-8e4c-57d2348748dc.png" alt="logica de programação" title="logica de programação">
-                            <img src="https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png" alt="html" title="html">
-                            <img src="https://assets.dio.me/gt-tEnhv4_p33iwDXfI-zutfiEJ-q27qVfDCcnLV7I0/f:webp/h:120/q:80/L3RyYWNrcy9kYTA0M2M3YS03MTg5LTQ0MWUtYmYyOC1hZGMyZDA1YTQ5MzQucG5n" alt="css" title="css">
-                            <img src="https://assets.dio.me/5ViRkDsIaUjO9TKHjJKnR9IpyveJ81NLZfM8vSf1yLs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81NWU3MDQwZi03NzViLTQ3ZTUtYThmYi02OWQwMDJjYTE3YTkucG5n" alt="javascript" title="javascript">
-                            <img src="https://hermes.dio.me/tracks/a736ef42-0d2f-4079-adb4-25c55c85ba2b.png" alt="python fundamentals" title="python fundamentals">
-                            <img src="https://assets.dio.me/fh7MA7tRhuS3kjER2ktioiJvXaQCToVc6qifwWdNoAs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81ZDU1YTRlYy1lZjM0LTQyMjItODMwZi0xOGRlYTgzYmEzOTMucG5n" alt="python backend" title="python backend">
-                        </li>
-                    </ul>
-                </div>
-                <div class="curso">
-                    <ul>
-                        <li>
-                            <h3 class="title">dio.me</h3><br>
-                            <p>Web Development! All i need to know in one place</p>
-                        </li>
-                        <br>
-                        <li>
-                            <h3 class="title">Estácio - Graduação em Analise e Desenvolvimento de Sistemas</h3>
+            <div class="content">
+                <section class="education">
+                    <div class="conquest">
+                        <h3 class="title">Minhas conquistas na DIO</h3>
+                        <ul>
+                            <li>
+                                <img src="https://hermes.dio.me/tracks/977d1b41-5888-44d7-8e4c-57d2348748dc.png"
+                                    alt="logica de programação" title="logica de programação">
+                                <img src="https://hermes.dio.me/tracks/62ed1f1d-8d76-4bbc-905f-e73d20cb82f5.png"
+                                    alt="html" title="html">
+                                <img src="https://assets.dio.me/gt-tEnhv4_p33iwDXfI-zutfiEJ-q27qVfDCcnLV7I0/f:webp/h:120/q:80/L3RyYWNrcy9kYTA0M2M3YS03MTg5LTQ0MWUtYmYyOC1hZGMyZDA1YTQ5MzQucG5n"
+                                    alt="css" title="css">
+                                <img src="https://assets.dio.me/5ViRkDsIaUjO9TKHjJKnR9IpyveJ81NLZfM8vSf1yLs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81NWU3MDQwZi03NzViLTQ3ZTUtYThmYi02OWQwMDJjYTE3YTkucG5n"
+                                    alt="javascript" title="javascript">
+                                <img src="https://hermes.dio.me/tracks/a736ef42-0d2f-4079-adb4-25c55c85ba2b.png"
+                                    alt="python fundamentals" title="python fundamentals">
+                                <img src="https://assets.dio.me/fh7MA7tRhuS3kjER2ktioiJvXaQCToVc6qifwWdNoAs/f:webp/h:118/q:80/w:118/L3RyYWNrcy81ZDU1YTRlYy1lZjM0LTQyMjItODMwZi0xOGRlYTgzYmEzOTMucG5n"
+                                    alt="python backend" title="python backend">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="curso">
+                        <ul>
+                            <li>
+                                <h3 class="title">dio.me</h3><br>
+                                <p>Web Development! All i need to know in one place</p>
+                            </li>
                             <br>
-                            <p>Recife - 2025</p>
-                        </li>
-                    </ul>
-                </div>
-            </section></div>
-            
+                            <li>
+                                <h3 class="title">Estácio - Graduação em Analise e Desenvolvimento de Sistemas</h3>
+                                <br>
+                                <p>Recife - 2025</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
         </section>
         <!--Portfolio-->
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Portfólio</h2>
             </button>
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Pokedex, aplicação a 1 geração de Pokemons.</h3><br>
-                        <a href="https://allysonaggp.github.io/Pokedex/"
-                            target="_blank">https://allysonaggp.github.io/Pokedex/</a>
-                    </li>
-                    <br>
-                    <li>
-                        <h3 class="title github">Landing Page para um escritorio de advocacia.</h3><br>
-                        <a href="https://cardosoadvocacia.onrender.com/"
-                            target="_blank">https://cardosoadvocacia.onrender.com/</a>
-                    </li>
-                    <br>
-                    <li>
-                        <h3 class="title github">SnapClima, aplicação que mostra a temperatura da região.</h3><br>
-                        <a href="https://allysonaggp.github.io/snap-clima/"
-                            target="_blank">https://allysonaggp.github.io/snap-clima/</a>
-                    </li>
 
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
                 </ul>
             </div>
         </section>
         <!--Experienccia Profissional-->
-       <!-- <section class="acordeon">
+        <section class="acordeon">
             <button class="trigger" type="button">
-                <h2>Experienccia Profissional</h2>
+                <h2>Experiência Profissional</h2>
             </button>
+
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Front-end Developer / dio.me</h3>
-                        <h3 class="period">Jan 2020 - Current</h3>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
-                            ea et odio, unde doloremque repellendus iure, iste.</p>
-                    </li>
-                    <li>
-                        <h3 class="title">CFront-end Developer / Philips</h3>
-                        <h3 class="period">Jan 2020 - Current</h3>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
-                            ea et odio, unde doloremque repellendus iure, iste.</p>
-                    </li>
-                    <li>
-                        <h3 class="title">CUX designer/ dio.me</h3>
-                        <h3 class="period">Jan 2020 - Current</h3>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
-                            deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta
-                            ea et odio, unde doloremque repellendus iure, iste.</p>
-                    </li>
+                <ul class="experience" id="profile.professionalExperience">
                 </ul>
             </div>
-        </section> -->
-      </div>
+        </section>
+
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
     </main>
 
-
-    <script src="js/index.js"></script>
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

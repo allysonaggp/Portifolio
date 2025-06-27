@@ -1,0 +1,84 @@
+{
+  "name": "Allyson G Pereira",
+  "photo": "https://github.com/allysonaggp/Portifolio/blob/main/img/allyson%20G%20Pereira.jpg",
+  "job": "Analista de  Desenvolvimentro de Software",
+  "location": "Recife - PE",
+  "phone": "(81) 9 9659-8308",
+  "email": "allysonaggp@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "javaScript",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/js.svg"
+      },
+      {
+        "name": "css",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/css.svg"
+      },
+      {
+        "name": "html",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/html.svg"
+      },
+      {
+        "name": "python",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/python.svg"
+      },
+      {
+        "name": "git",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/git.svg"
+      },
+      {
+        "name": "mysql",
+        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/mysql.svg"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Proatividade",
+      "Flexibilidade",
+      "Organização",
+      "Trabalho em equipe"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (basico)",
+    "Espanhol (basico)"
+    
+  ],
+  "portfolio": [
+    {
+      "name": "Landing Page para um Centro Educacional.",
+      "url": "https://centro-criativoas.onrender.com",
+      "github": true
+    },
+    {
+      "name": "Landing Page para um escritorio de advocacia.",
+      "url": "https://cardosoadvocacia.onrender.com",
+      "github": true
+    },
+    {
+      "name": "Pokedex, aplicação com a primeira geração de Pokemons.",
+      "url": "https://allysonaggp.github.io/Pokedex",
+      "github": true
+    },
+    {
+      "name": "SnapClima, aplicação que mostra a temperatura da região.",
+      "url": "https://allysonaggp.github.io/snap-clima",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Criação de Site Landing Page para um escritorio de Advocacia",
+      "period": "2025",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Criação de Site Landing Page para um Centro Educacional",
+      "period": "2025",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    }
+   
+  ]
+}
