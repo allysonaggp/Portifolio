@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "javaScript",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/js.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/js.svg"
       },
       {
         "name": "css",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/css.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/css.svg"
       },
       {
         "name": "html",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/html.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/html.svg"
       },
       {
         "name": "python",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/python.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/python.svg"
       },
       {
         "name": "git",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/git.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/git.svg"
       },
       {
         "name": "mysql",
-        "logo": "https://github.com/allysonaggp/Portifolio/blob/main/img/icones/mysql.svg"
+        "logo": "https://raw.githubusercontent.com/allysonaggp/Portifolio/dbcc08fbaf5252174135b318d8b86c61eddc7758/img/icones/mysql.svg"
       }
     ],
     "softSkills": [
