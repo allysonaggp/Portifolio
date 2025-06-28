@@ -14,9 +14,10 @@
     justify-content: flex-start;
     margin: 1rem 0;
 }
+
 .portfolio li a {
- margin-top: -1rem;
- margin-left: 1.6rem;
+    margin-top: .1rem;
+    margin-left: 1.6rem;
 }
 
 .portfolio li .title {
@@ -38,4 +39,3 @@
     background-image: url('../img/icones/github.svg');
     margin-right: .5rem;
 }
-
